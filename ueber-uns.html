@@ -10,19 +10,14 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://d3js.org/d3-array.v2.min.js"></script>
     <script src="js/artikel_datenbank.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=DM+Sans&display=swap" rel="stylesheet">     <link rel="stylesheet" href="css/bayerngraph.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=DM+Sans&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/bayerngraph.css">
     <title>ÜBER UNS - BayernGraph</title>
-    <style>
-      body {
-      font-family: 'Crimson Text', serif;
-      font-family: "DM Sans", sans-serif;
-    </style>
     <script src="https://d3js.org/d3.v4.js"></script>
 </head>
 <body>
 
 
-<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><strong>Bayern</strong>Graph</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,67 +50,85 @@
     </div>
   </nav>
 
-<div class="container mt-3">
-  <div class="d-sm-flex align-items-center justify-content-between mb-4">
-      <h1 style="font-family:Crimson Text;"><strong>ÜBER UNS</strong></h1>
+<!--Team-Container-->
+<div class="container">
+
+  <!--Create Team-Row-->
+  <div class="row">
+
+    <!--Erste Team-Col-->
+    <div class="col" align="center">
+        <div class="row justify-content-center align-items-center m-4"> <!--Foto-->
+            <img src="person.jpg" class="img-fluid rounded m-2 shadow" style="max-width: 250px;"></img>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Name-->
+            <div class="text-name">Max Mustermann</div>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Position-->
+            <div class="text-posi">Student, </br>
+                Mitarbeiter an der Professur für XY</div>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Social Media-->
+
+        <div class="col-2 m-1 ">
+            <i class="fa-brands fa-facebook icon-pos" style="font-size:25px;"></i>
+        </div>
+
+        <div class="col-2 m-1">
+            <i class="fa-brands fa-twitter icon-pos" style="font-size:25px"></i>
+        </div>
+
+        <div class="col-2 m-1">
+                <i class="fa-solid fa-envelope icon-pos" style="font-size:25px"></i>
+        </div>
+
+        </div>
+    </div>
+
+    <!--Zweite Team-Col-->
+    <div class="col" align="center">
+        <div class="row justify-content-center align-items-center m-4"> <!--Foto-->
+            <img src="person.jpg" class="img-fluid rounded m-2 shadow" style="max-width: 250px;"></img>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Name-->
+            <div class="text-name">Hannah Hannamann</div>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Position-->
+            <div class="text-posi">Studentin, </br>
+                BSc. Politikwissenschaft</div>
+        </div>
+
+        <div class="row justify-content-center align-items-center m-4"> <!--Social Media-->
+
+        <div class="col-2 m-1 ">
+            <i class="fa-brands fa-twitter icon-pos" style="font-size:25px;"></i>
+        </div>
+
+        <div class="col-2 m-1">
+            <i class="fa-brands fa-github icon-pos" style="font-size:25px"></i>
+        </div>
+
+        <div class="col-2 m-1">
+            <i class="fa-brands fa-instagram icon-pos" style="font-size:25px"></i>
+        </div>
+
+        </div>
+
+    </div>
+
+  <!--close Team-Row-->
   </div>
+
+<!--close Team-Container-->
 </div>
 
-<div class="container" style="background-color:#CFE7F2;">
-  <div class="row justify-content-center align-items-center">
-    <div class="col-md-auto m-4 " align="center">
-      <img src="person.jpg" class="img-fluid" style="max-width: 200px;"></img>
-    </div>
-    <div class="col">
-    <div class="row m-2">
-        <p class="blocksatz">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
-    </div>
-    <div class="row m-1">
-        <div class="col">
-            <i class="fa-brands fa-facebook-f text-orange" style="font-size:12px"></i> joana.bayraktar
-        </div>
-        <div class="col">
-            <i class="fa-brands fa-twitter text-orange" style="font-size:12px"></i> joana.bayraktar
-        </div>
-        <div class="col">
-            <i class="fa-solid fa-at text-orange" style="font-size:12px"></i> joana.bayraktar@tum.de
-        </div>
-    </div>
-    </div>
-    </div>
-  </div>
 
-<div class="container mt-3" style="background-color:#AED8EA;">
-  <div class="row justify-content-center align-items-center">
-    <div class="col-md-auto m-4" align="center">
-      <img src="person.jpg" class="img-fluid" style="max-width: 200px;"></img>
-    </div>
-    <div class="col">
-    <div class="row m-2">
-        <p class="blocksatz">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
-    </div>
-    <div class="row m-1">
-        <div class="col">
-            <i class="fa-brands fa-facebook-f text-primary" style="font-size:12px;"></i> joana.bayraktar
-        </div>
-        <div class="col">
-            <i class="fa-brands fa-twitter text-primary" style="font-size:12px"></i> joana.bayraktar
-        </div>
-        <div class="col">
-            <i class="fa-solid fa-at text-primary" style="font-size:12px"></i> joana.bayraktar@tum.de
-        </div>
-    </div>
-    </div>
-    </div>
-  </div>
-
-
-  </div>
-</div>
 
 </body>
 </html>
 
-<div class="col">
-
-</div>
